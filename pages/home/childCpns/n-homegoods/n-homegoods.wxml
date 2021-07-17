@@ -1,0 +1,12 @@
+<!--pages/home/childCpns/n-homegoods/n-homegoods.wxml-->
+<view wx:if="{{list.length > 0}}">
+  <goods-list>
+
+      <!-- <text>{{index}}</text> -->
+      <!-- <goods-item slot="{{index % 2 > 0 ? 'left' : 'right'}}" goods="{{item}}"/> -->
+   
+    <view slot="left">？？大姐二姐</view>
+    <view slot="right"> dekksdu</view>
+  </goods-list>
+</view>
+<button catchtap="btnclick">点击</button>

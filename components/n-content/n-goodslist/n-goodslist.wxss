@@ -1,0 +1,8 @@
+/* components/n-content/n-goodslist/n-goodslist.wxss */
+.goods-list {
+  display: flex;
+  justify-content: space-around;
+}
+.item {
+  width: 48%;
+}

@@ -1,0 +1,16 @@
+/* components/n-common/n-tabcontrol/n-tabcontrol.wxss */
+.tab-control {
+  display: flex;
+  height: 88rpx;
+  text-align: center;
+}
+.tab-control-item {
+  flex: 1;
+}
+.tab-control-item text {
+  padding: 10rpx;
+}
+.active {
+  color: #ff5777;
+  border-bottom: 6rpx solid #ff5777;
+}

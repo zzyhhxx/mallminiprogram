@@ -1,0 +1,6 @@
+<!-- 轮播图 -->
+<n-swiper list="{{banner}}"></n-swiper>
+<n-recommend list="{{recommend}}"></n-recommend>
+<n-popular/>
+<n-tabcontrol list="{{['最新','流行','精选']}}" bind:tabClick="tabClick"/>
+<n-goodslist list="{{goodsList[currentType].list}}"/>

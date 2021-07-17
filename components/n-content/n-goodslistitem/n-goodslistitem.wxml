@@ -1,0 +1,9 @@
+<!--components/n-content/n-goodslistitem/n-goodslistitem.wxml-->
+<view class="goods-item">
+  <image mode="widthFix" src="{{goods.show.img}}"></image>
+  <view class="title">{{goods.title}}</view>
+  <view>
+    <text>{{goods.price}}</text>
+    <text>{{goods.cfav}}</text>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "n-swiper": "/components/n-swiper/n-swiper",
+    "n-recommend": "/pages/home/childCpns/n-recommend/n-recommend",
+    "n-popular": "/pages/home/childCpns/n-popular/n-popular",
+    "n-tabcontrol": "/components/n-common/n-tabcontrol/n-tabcontrol",
+    "n-goodslist": "/pages/home/childCpns/n-homegoods/n-homegoods"
+  },
+  "navigationBarTitleText": "购物街"
+}

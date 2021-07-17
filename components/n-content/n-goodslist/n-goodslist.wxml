@@ -1,0 +1,9 @@
+<!--components/n-content/n-goodslist/n-goodslist.wxml-->
+<view class="goods-list">
+  <view class="item">
+    <slot name="left"></slot>
+  </view>
+  <view class="item">
+    <slot name="right"></slot>
+  </view>
+</view>
